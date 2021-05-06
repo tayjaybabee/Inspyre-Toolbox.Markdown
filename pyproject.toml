@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "inspyre-toolbox.markdown"
+version = "1.0a1"
+description = "A markdown plugin for Inspyre Toolbox."
+authors = ["tayjaybabee <t.blackstone@inspyre.tech>"]
+license = "WTFPL"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+inspyre-toolbox = "^1.0a3"
+
+[tool.poetry.dev-dependencies]
+poetry = "^1.1.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
